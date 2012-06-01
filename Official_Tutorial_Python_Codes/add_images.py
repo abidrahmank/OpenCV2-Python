@@ -1,6 +1,6 @@
 ''' file name : simple_linear_blender.py
 
-This sample shows how to blend two images.
+Discription : This sample shows how to blend two images.
 
 This is Python version of this tutorial : http://opencv.itseez.com/doc/tutorials/core/adding_images/adding_images.html#adding-images
 
@@ -10,9 +10,7 @@ Benefits : 1) Learns usage of cv2.addWeighted and 2) its numpy implementation
 
 Usage : python simple_linear_blender.py 
 
-Written by Abid K. (abidrahman2@gmail.com)
-
-Visit opencvpython.blogspot.com for more tutorials '''
+Written by : Abid K. (abidrahman2@gmail.com) , Visit opencvpython.blogspot.com for more tutorials '''
 
 import cv2
 import numpy as np
