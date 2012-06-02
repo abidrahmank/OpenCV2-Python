@@ -2,8 +2,13 @@ This folder contains Python codes for C++ codes in OpenCV official tutorials : '
 
 Details :
 
-1)  Load and Display an Image		---		display_image.py
-2)  Load, Modify, and Save an Image --- 	modify_image.py
-3)  Mask operations on matrices		--- 	fiter2d.py
-4)  Adding (blending) two images using OpenCV --- add_images.py
-5)  Changing the contrast and brightness of an image! --- BasicLinearTransforms.py
+Introduction to OpenCV
+	1)  Load and Display an Image		---		display_image.py
+	2)  Load, Modify, and Save an Image --- 	modify_image.py
+
+Core Module	
+	1)  Mask operations on matrices		--- 	fiter2d.py
+	2)  Adding (blending) two images using OpenCV --- add_images.py
+	3)  Changing the contrast and brightness of an image! --- BasicLinearTransforms.py
+	
+Improc module
