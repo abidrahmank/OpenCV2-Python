@@ -11,4 +11,4 @@ Core Module
 	2)  Adding (blending) two images using OpenCV --- add_images.py
 	3)  Changing the contrast and brightness of an image! --- BasicLinearTransforms.py
 	
-Improc module
+Imgproc module
