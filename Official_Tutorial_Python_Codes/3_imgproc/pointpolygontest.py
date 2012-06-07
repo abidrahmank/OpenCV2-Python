@@ -55,4 +55,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ### For more details & feature extraction on contours, visit : http://opencvpython.blogspot.com/2012/04/contour-features.html
-
+### For much more better and faster (50X) method, visit:http://opencvpython.blogspot.com/2012/06/fast-array-manipulation-in-numpy.html
