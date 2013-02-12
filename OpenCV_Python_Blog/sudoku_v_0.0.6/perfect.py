@@ -1,4 +1,5 @@
-''' this module solves a sudoku '''
+''' This module solves a sudoku, This is actually written by Peter Norvig
+    Code and Explanation can be found here : norvig.com/sudoku.html'''
 
 def cross(A, B):
     "Cross product of elements in A and elements in B."
