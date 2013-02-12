@@ -1,0 +1,33 @@
+this is the different speeds of different versions of sudoku script. Speed is taken as range of min and max of 5 runs.
+image is standard image of size 
+
+starting from release number 0.0.0
+
+0.0.0 -- speed : 0.0491 - .0621
+	
+0.0.1 -- speed : 0.0515 - 0.0571
+	changed max. area condition to fit for all images, if area > total_area/2
+
+0.0.2 -- speed : 0.0397 - 0.0471
+	reduced num_calls for cv2.arclength and cv2.approxPolyDP
+	
+0.0.3 -- speed : 0.0370 - 0.0423
+	just GRAYing warp is atleast 15x faster than cv2.warpPerspective(gray,retval,(450,450)) ie ~ 4ms difference
+	
+0.0.4 -- speed : 0.0344 - 0.0413
+	creating kernel using cv2.getStructuringElement is atleast 6x faster than manual creation, but only ~16ms difference
+	
+0.0.5 -- speed : 0.0355 - 0.0411
+	removed unnecessary conversion from str to nparray and viceversa, still not much improvement	
+	
+0.0.6 -- speed : 0.0276 - 0.0328 ( valid for more than one image or video) (~ 30-36 fps)
+	moved OCR data loading and training to the top. For one image, it wont make any difference, but for video fps can be increased.	
+	
+	
+	
+Other possible optimizations and implementations: 
+ -- change to cv2.RETR_EXTERNAL
+ -- warp back to original image
+ -- support for video
+
+
