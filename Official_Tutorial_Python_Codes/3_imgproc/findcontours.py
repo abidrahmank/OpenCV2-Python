@@ -36,7 +36,7 @@ max_thresh = 255
 
 cv2.createTrackbar('canny thresh:','input',thresh,max_thresh,thresh_callback)
 
-thresh_callback(0)
+thresh_callback(thresh)
 
 if cv2.waitKey(0) == 27:
     cv2.destroyAllWindows()
