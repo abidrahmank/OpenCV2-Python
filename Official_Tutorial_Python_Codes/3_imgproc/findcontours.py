@@ -23,7 +23,7 @@ def thresh_callback(thresh):
         color = np.random.randint(0,255,(3)).tolist()  # Select a random color
         cv2.drawContours(drawing,[cnt],0,color,2)
         cv2.imshow('output',drawing)
-        cv2.imshow('input',img)
+    cv2.imshow('input',img)
 
 img = cv2.imread('jonty2.jpg')
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
